@@ -1,0 +1,72 @@
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+li
+{
+    margin-right: 2rem;
+    border-radius: 5px;
+    padding: 10px;
+    list-style-type: none;
+    text-align: start;
+}
+
+li:nth-child(odd)
+{
+    background-color:cadetblue;
+}
+
+li:hover
+{
+    
+    cursor: pointer;
+    background-color:#ddd;
+}
+.close
+{
+    cursor: grab;
+    right: 0;
+    top: 0;
+   
+}
+.container
+{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(40, 238, 238);
+    width: 50%;
+    height: 100%;
+    border: 2px solid dodgerblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.pad
+{
+    padding: 10px;
+    margin: 10px;
+}
+b
+{
+    font-size: 36px;
+}
+.notSigned
+{
+    display: none;
+
+}
+ul li.checked 
+{
+    background: rgba(66, 238, 32, 1);
+    color: black;
+
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            To Do List
+        </title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="viewData(),avtivateX()">
+        <container class="container">
+            <div class=" pad">
+                <div ><b>Title</b></div>
+                <input type="text" id="titleText" class="btn-primary" >
+            </div>
+            <div class=" pad">
+                <input type="button" onclick="saveData()" value="Save" id="saveBtn" class="btn btn-primary" >
+            </div>
+            <div class=" pad">
+                <input type="button" onclick="clearData()" value="clear items" id="clearBtn" class="btn btn-primary" >
+            </div>
+            <br><br><br>
+            <span><b>My List</b></span>
+            <ul id="myList">
+
+            </ul>
+        </container>
+        <script src="main.js"></script>
+    </body>
+</html>
